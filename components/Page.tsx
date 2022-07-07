@@ -50,8 +50,8 @@ const Page = () => {
   return (
     
     <div className='vstack'>
-      <h2>Step 0, make sure metamask network with chainId 82, and node (https://stage.node.vires.finance) is selected</h2>
-      <Image src='/metamask.png' width={400} height={400} layout='fixed' />
+      <h2>Step 0, make sure metamask network with chainId 82, and node (https://stage.node.vires.finance/eth) is selected</h2>
+      <Image src='/metamask.png' width={400} height={400} layout='fixed' alt='not really' />
       <h2>Step 1</h2>
       <Login state={userState} signer={signer} />
       <h2>Step 2, check user order params</h2>
