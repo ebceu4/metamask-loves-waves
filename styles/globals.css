@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-size: 12px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,4 +14,44 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.error {
+  background-color: rgb(255, 189, 180);
+}
+
+.vstack { 
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+}
+
+textarea { 
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.overlay-root {
+  position: relative;
+}
+
+.pre { 
+  margin-right: 60px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+}
+
+.border { 
+  border: 2px solid #ccc;
+  width: fit-content;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
