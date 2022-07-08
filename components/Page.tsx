@@ -24,11 +24,10 @@ const Page = () => {
     orderType: 'buy',
     assetPair: {
       amountAsset: null,
-      priceAsset: '49y6xCWJJdNhCG88oPktziUuqiTGmd4d62AYGZ84ecTR'
+      priceAsset: 'CdrG4fjrAQxrdYpExQyGi3cLgJcmoxc4qGVktXeYe2sj'
     },
     matcherPublicKey: publicKey(matcherSeed),
-    senderPublicKey: publicKey(userSeed),
-    matcherFeeAssetId: '49y6xCWJJdNhCG88oPktziUuqiTGmd4d62AYGZ84ecTR',
+    matcherFeeAssetId: 'CdrG4fjrAQxrdYpExQyGi3cLgJcmoxc4qGVktXeYe2sj',
     amount: 1000000,
     price: 5267200,
     matcherFee: 100000,

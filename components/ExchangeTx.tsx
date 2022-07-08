@@ -27,7 +27,7 @@ const ExchangeTx = ({ signer, chainId, userOrder, matcherSeed, orderSignatureHex
       version: 3,
       assetPair: {
         amountAsset: null,
-        priceAsset: '49y6xCWJJdNhCG88oPktziUuqiTGmd4d62AYGZ84ecTR', //stage_usdn
+        priceAsset: 'CdrG4fjrAQxrdYpExQyGi3cLgJcmoxc4qGVktXeYe2sj', //stage_usdn
       },
       timestamp,
       expiration,
@@ -54,12 +54,13 @@ const ExchangeTx = ({ signer, chainId, userOrder, matcherSeed, orderSignatureHex
       },
       order2: matcherOrder,
       amount: 1000000,
-      price: 5267200,
+      price: 526720000,
       buyMatcherFee: 100000,
       sellMatcherFee: 100000,
       chainId: chainId.charCodeAt(0),
       fee: 300000,
       timestamp: Date.now(),
+      priceMode: 'assetDecimals',
       senderPublicKey: publicKey(matcherSeed),
     }
 
