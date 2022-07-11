@@ -36,6 +36,10 @@ textarea {
   border: none;
 }
 
+.bytes { 
+  height: 100px;
+}
+
 .overlay-root {
   position: relative;
 }

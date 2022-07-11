@@ -12,7 +12,6 @@ import Image from 'next/image'
 
 const Page = () => {
 
-  const userSeed = '63911bfd-c1cb-48f9-921c-beb1fc90e6cd'
   const matcherSeed = 'bdd408162b4d4f6e8b5a49c791b37002'
   const timestamp = Date.now()
   const expiration = timestamp + 60 * 60 * 24 * 1000
