@@ -12,7 +12,7 @@
     "@waves/provider-metamask": "^1.1.3",
     "@waves/signer": "^1.0.11",
     "@waves/ts-lib-crypto": "^1.4.4-beta.1",
-    "@waves/waves-transactions": "^4.2.9-beta.7",
+    "@waves/waves-transactions": "^4.2.9-beta.8",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"

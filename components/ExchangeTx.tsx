@@ -1,5 +1,5 @@
 import { order, exchange } from '@waves/waves-transactions'
-import { base58Encode, privateKey, publicKey } from '@waves/ts-lib-crypto'
+import { base58Encode, publicKey } from '@waves/ts-lib-crypto'
 import { Dispatch, useEffect, useMemo, useState } from 'react'
 import JsonText from './JsonText'
 import { Signer } from '@waves/signer'
