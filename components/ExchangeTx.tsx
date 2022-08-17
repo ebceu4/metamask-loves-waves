@@ -31,7 +31,7 @@ const ExchangeTx = ({ signer, chainId, userOrder, matcherSeed, orderSignatureHex
       version: 3,
       assetPair: {
         amountAsset: null,
-        priceAsset: 'CdrG4fjrAQxrdYpExQyGi3cLgJcmoxc4qGVktXeYe2sj', //stage_usdn
+        priceAsset: 'DsyC6GfxuEo6woNawU9jE91FEqLUufTxUCTSn9VfVhkH', //stage_usdn
       },
       timestamp,
       expiration,
@@ -64,7 +64,7 @@ const ExchangeTx = ({ signer, chainId, userOrder, matcherSeed, orderSignatureHex
       chainId: chainId.charCodeAt(0),
       fee: 300000,
       timestamp: Date.now(),
-      priceMode: 'fixedDecimals',
+      //priceMode: 'fixedDecimals',
     }
 
     const tx = exchange(exchangePrams as any, matcherSeed)
