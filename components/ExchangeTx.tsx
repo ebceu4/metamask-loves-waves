@@ -31,7 +31,7 @@ const ExchangeTx = ({ signer, chainId, userOrder, matcherSeed, orderSignatureHex
       version: 3,
       assetPair: {
         amountAsset: null,
-        priceAsset: 'DsyC6GfxuEo6woNawU9jE91FEqLUufTxUCTSn9VfVhkH', //stage_usdn
+        priceAsset: process.env.NEXT_PUBLIC_PRICE_ASSET!
       },
       timestamp,
       expiration,

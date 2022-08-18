@@ -12,7 +12,7 @@ import Image from 'next/image'
 
 const Page = () => {
 
-  const matcherSeed = 'bdd408162b4d4f6e8b5a49c791b37002'
+  const matcherSeed = process.env.NEXT_PUBLIC_MATCHER_SEED!
   const timestamp = Date.now()
   const expiration = timestamp + 60 * 60 * 24 * 1000
 
@@ -23,12 +23,12 @@ const Page = () => {
     orderType: 'buy',
     assetPair: {
       amountAsset: null,
-      priceAsset: 'DsyC6GfxuEo6woNawU9jE91FEqLUufTxUCTSn9VfVhkH'
+      priceAsset: process.env.NEXT_PUBLIC_PRICE_ASSET!
     },
     matcherPublicKey: publicKey(matcherSeed),
-    matcherFeeAssetId: 'DsyC6GfxuEo6woNawU9jE91FEqLUufTxUCTSn9VfVhkH',
+    matcherFeeAssetId: process.env.NEXT_PUBLIC_PRICE_ASSET!,
     amount: 1000000,
-    price: 5267200,
+    price: 10100000,
     //price: 526720000,
     matcherFee: 100000,
     priceMode: 'assetDecimals',
