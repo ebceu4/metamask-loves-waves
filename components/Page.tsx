@@ -23,8 +23,7 @@ const Page = () => {
     orderType: 'buy',
     assetPair: {
       amountAsset: null,
-      priceAsset: 
-      
+      priceAsset: process.env.NEXT_PUBLIC_PRICE_ASSET!
     },
     matcherPublicKey: publicKey(matcherSeed),
     matcherFeeAssetId: process.env.NEXT_PUBLIC_PRICE_ASSET!,
